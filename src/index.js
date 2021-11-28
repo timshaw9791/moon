@@ -1,4 +1,5 @@
 export { default as Button } from './components/Button/Button.vue'
+/*export { default as B } from './components/Button/B.vue'
 export { default as Checkbox } from './components/Checkbox/Checkbox.vue'
 export { default as Input } from './components/Input/Input.vue'
 export { default as Link } from './components/Link/Link.vue'
@@ -15,3 +16,4 @@ export { default as Tooltip } from './components/Tooltip/Tooltip.vue'
 export { default as EVENTS } from './utils/events'
 export { default as EventBus } from './utils/mitt'
 export { lockScroll, unlockScroll } from './utils/scrollLock'
+*/

@@ -1,5 +1,9 @@
 # 🌙 Moon
 
+fork自： git@github.com:ulissesferreira/moon.git
+
+## 运行npm run build:library然后找到moon.umd.js拿到预编译后的umd格式button组件
+
 [![npm (scoped)](https://img.shields.io/npm/v/@ulissesferreira/moon)](https://www.npmjs.com/package/@ulissesferreira/moon)
 [![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@ulissesferreira/moon)](https://bundlephobia.com/result?p=@ulissesferreira/moon@latest)
 [![NPM](https://img.shields.io/npm/l/@ulissesferreira/moon)](https://github.com/ulissesferreira/moon/blob/main/LICENSE)

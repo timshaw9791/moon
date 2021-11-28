@@ -50,6 +50,7 @@ export default {
   },
   methods: {
     onClick(event) {
+      console.log(this.title);
       this.$emit('click', event)
     },
   },
@@ -67,7 +68,7 @@ button {
 }
 
 button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
