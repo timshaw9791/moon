@@ -1,4 +1,7 @@
-export { default as Button } from './components/Button/Button.vue'
+//export { default as AdminLayoutStandard } from './components/AdminLayoutStandard.vue'
+//export { default as SimplestLayout } from './components/SimplestLayout.vue'
+export { default as Piechart } from './components/Piechart.vue'
+//export { default as Button } from './components/Button/Button.vue'
 /*export { default as B } from './components/Button/B.vue'
 export { default as Checkbox } from './components/Checkbox/Checkbox.vue'
 export { default as Input } from './components/Input/Input.vue'

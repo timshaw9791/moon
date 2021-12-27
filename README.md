@@ -2,7 +2,13 @@
 
 fork自： git@github.com:ulissesferreira/moon.git
 
-## 运行npm run build:library然后找到moon.umd.js拿到预编译后的umd格式button组件
+## 运行npm run build:library然后找到moon.umd.js拿到预编译后的umd格式XX组件
+
+- 原地格式化UMD文件，在第七行删除".moon={}"
+- 在倒数第4行确认组件的名字，如t.Piechart = KB，那这个组件名就是Piechart
+- 重命名moon.umd.js文件为"组件名.umd.js（如Piechart.umd.js),注意区分大消息！
+- copy到weblock的/public/comp目录下，并在weblock项目中添加该组件的元数据
+- 
 
 [![npm (scoped)](https://img.shields.io/npm/v/@ulissesferreira/moon)](https://www.npmjs.com/package/@ulissesferreira/moon)
 [![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@ulissesferreira/moon)](https://bundlephobia.com/result?p=@ulissesferreira/moon@latest)
