@@ -1,14 +1,15 @@
 <template>
-  <button
+  <el-button
     :class="buttonClassObject"
-    type="button"
+    type="primary"
+    plain
     :title="title"
     :aria-label="title"
     :disabled="disabled"
     @click="onClick($event)"
   >
     <span>{{ label }}</span>
-  </button>
+  </el-button>
 </template>
 <script>
 export default {
